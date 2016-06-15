@@ -5,8 +5,8 @@ public class DrawingApp {
     public static void main(String[] args) {
 
 
-      Shape myTriangle = new Triangle();
-        Drawing.setShape(myTriangle);
-        Drawing.getShape();
-
-}}
+        Shape myTriangle = new Shape();
+        Shape.setShape(myTriangle);
+        Shape.getShape();
+    }
+}
